@@ -5,7 +5,6 @@ window.addEventListener('DOMContentLoaded', () => {
     const tabs = document.querySelector('.tabs-head');
     const tabsHead = document.querySelectorAll('.tabs-head__item');
     const tabsBody = document.querySelectorAll('.tabs-body__item');
-    const isActive = document.querySelectorAll('.is-active');
 
     const hideTabsContent = (a) => {
         for (let i = a; i < tabsBody.length; i++) {
